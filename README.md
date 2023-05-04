@@ -17,8 +17,8 @@ Test the script to make sure it is working correctly.
 ## Usage
 Once you've configured the script and tested it, you can use it in a number of ways:
 
-- Manually: Open PowerShell and navigate to the script directory, then run the script using the .\backup_access_db.ps1 command.
-- Scheduled task: Use Windows Task Scheduler to run the script on a schedule. Set the program/script field to PowerShell.exe, and the arguments field to -ExecutionPolicy Bypass -File "path\to\backup_access_db.ps1". Make sure you also set the start in directory to the script directory.
+- Manually: Open the folder where the script is located, right-click, select run with PowerShell.
+- Scheduled task: Use Windows Task Scheduler to run the script on a schedule. Set the program/script field to PowerShell.exe, and the arguments field to -ExecutionPolicy Bypass -File "path\to\backup_script.ps1". 
 
 ## Configuration
 The config.txt file contains the following settings:
@@ -28,8 +28,6 @@ The config.txt file contains the following settings:
 <div style="float: left; margin-right: 10px;">
   <img src="config example.png" width="700">
 </div>
-
-Here is an example of how to use the script to backup your Access database...
 
 ## Log File
 The script writes a log file to track the backup history. The log file path is specified in the script, and each backup is recorded in the file with the following information:
