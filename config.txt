@@ -1,0 +1,9 @@
+# INSTRUCTIONS:
+# This is the configuration file for the backup script.
+# To update the paths for the database and backup location, modify the values after the equals sign on the respective lines.
+# DO NOT remove the 'databasePath=' or 'destinationPath=' prefixes.
+# DO NOT add spaces around the equals sign.
+# If you have any questions, ask the IT department.
+
+databasePath=C:\Example\Path\To\Database.accdb
+destinationPath=C:\Example\Path\To\Destination
