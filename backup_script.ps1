@@ -44,7 +44,8 @@ Write-Host('-' * 85) -ForegroundColor Cyan
 $backupInfo = "Source database path: $databasePath`nDestination path: $destinationPath`n Backup completed on: $(Get-Date -Format 'MM/dd/yyyy hh:mm:ss tt')`n"
 Add-Content -Path $logFilePath -Value $backupInfo
 
-# Wait for 5 seconds before ending the script
-Start-Sleep -Seconds 5
+# Wait for the user to hit a key before ending the script
+Write-Host "Press any key to end the script..."
+$null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
 
 Exit
