@@ -18,9 +18,14 @@ Once you've configured the script and tested it, you can use it in a number of w
 
 ## Configuration
 The config.txt file contains the following settings:
-
 - databasePath: The path to the Access database you want to backup.
 - destinationPath: The path to the folder where you want to save the backup file.
+
+<div style="float: left; margin-right: 10px;">
+  <img src="config example.png" width="700">
+</div>
+
+Here is an example of how to use the script to backup your Access database...
 
 ## Log File
 The script writes a log file to track the backup history. The log file path is specified in the script, and each backup is recorded in the file with the following information:
