@@ -1,3 +1,7 @@
+<div style="float: left; margin-right: 10px;">
+  <img src="databaseImage.png" width="150">
+</div>
+
 # Backup Access Database Script
 This is a simple PowerShell script to backup an Access database to a specified location, and write a log of the backup history. The script reads the source and destination file paths from a configuration file, and uses the current date to name the backup file.
 
